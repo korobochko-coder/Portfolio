@@ -1,3 +1,16 @@
+:root {
+  --main-bg-color: #a2a8d3;
+  --primary-color: #e7eaf6;
+}
+
+.hero-page {
+  background-color: var(--main-bg-color);
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
 .photo,
 .intro {
   margin-top: 50px;
@@ -11,4 +24,9 @@
 
 .photo {
   border-radius: 43% 57% 55% 45% / 22% 50% 50% 78%;
+}
+
+button:hover {
+  background: var(--primary-color) !important;
+  color: black !important;
 }
