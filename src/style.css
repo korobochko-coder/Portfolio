@@ -31,7 +31,8 @@ button:hover {
   color: black !important;
 }
 
-.projects-page {
+.projects-page,
+.contact-page {
   background-color: var(--primary-color);
 }
 
@@ -41,4 +42,13 @@ h2 {
   padding-left: 6px;
   margin-right: 55px;
   padding-right: 6px;
+}
+
+.about-page {
+  background-color: var(--main-bg-color);
+}
+
+#contact-button:hover {
+  background-color: var(--main-bg-color) !important;
+  text: white !important;
 }
