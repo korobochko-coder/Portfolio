@@ -9,11 +9,7 @@
 
 .navbar {
   background-color: var(--primary-color);
-}
-
-.photo,
-.intro {
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .intro {
@@ -31,8 +27,8 @@ button:hover {
   color: black !important;
 }
 
-.projects-page,
-.contact-page {
+.projects-part,
+.contact-part {
   background-color: var(--primary-color);
 }
 
@@ -44,11 +40,20 @@ h2 {
   padding-right: 6px;
 }
 
-.about-page {
+.about-part {
   background-color: var(--main-bg-color);
 }
 
 #contact-button:hover {
   background-color: var(--main-bg-color) !important;
   text: white !important;
+}
+
+#projects-cover-img {
+  border: 3px solid #885df1;
+  border-radius: 14px;
+}
+
+.projects-page {
+  background-color: var(--main-bg-color);
 }
