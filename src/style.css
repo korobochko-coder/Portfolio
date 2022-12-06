@@ -3,6 +3,10 @@
   --primary-color: #e7eaf6;
 }
 
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
 .hero-page {
   background-color: var(--main-bg-color);
 }
