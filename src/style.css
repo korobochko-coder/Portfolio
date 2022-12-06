@@ -22,14 +22,22 @@
   border-radius: 43% 57% 55% 45% / 22% 50% 50% 78%;
 }
 
-button:hover {
-  background: var(--primary-color) !important;
-  color: black !important;
+#contact-button:hover {
+  background-color: var(--main-bg-color) !important;
+}
+
+#bio-button:hover {
+  background-color: var(--primary-color) !important;
+}
+
+#contact-button-about-page:hover {
+  background-color: var(--primary-color) !important;
 }
 
 .projects-part,
 .contact-part {
   background-color: var(--primary-color);
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -44,16 +52,14 @@ h2 {
   background-color: var(--main-bg-color);
 }
 
-#contact-button:hover {
-  background-color: var(--main-bg-color) !important;
-  text: white !important;
+img {
+  border-radius: 14px;
 }
 
 #projects-cover-img {
   border: 3px solid #885df1;
-  border-radius: 14px;
 }
 
-.projects-page {
+.about-projects-pages {
   background-color: var(--main-bg-color);
 }
